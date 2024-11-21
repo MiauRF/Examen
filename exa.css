@@ -1,0 +1,212 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #f8f6f5;
+    box-sizing: content-box;
+}
+footer{
+    width: 100%;
+    height: 100vh;
+}
+footer img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    object-fit: cover;
+}
+.nav{
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    animation: nave 10s; 
+}
+.nav ul{
+    display: flex;
+    gap: 30px;
+}
+.nav ul li {
+    color: white;
+    display: block;
+}
+.nav ul li:hover{
+    text-decoration: underline;
+}
+.logo {
+    width: 250px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateY(-50%);
+    transform: translateX(-50%);
+    scale: 1;
+    animation: LOGUITO 1s;
+    animation-fill-mode: both;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+.titulo {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%);
+    transform: translateX(-50%);
+    color: white;
+    font-size: 20px;
+}
+H2, h1{
+    margin: 0;
+    text-align: center;
+}
+.titulo a{
+    display: block;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 30px;
+    animation: bordes 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    
+
+}
+.capanegra {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.685);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.imagen {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+.ofrecer__animar{
+    position: relative;
+}
+.ofrecer{
+    color: #111110;
+    font-size: 40px;
+    margin: 20px;
+    
+}
+.contenedorimg{
+    display: grid;
+    place-items: center;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 300px 300px;
+    justify-content: center;
+    align-items: center;
+}
+.item1{
+    width: 370px;
+    height: 270px;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    transition: 1s;
+}
+.item1:hover{
+    transform: scale(1.2);
+}
+.item2{
+    width: 370px;
+    height: 270px;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    transition: 1s;
+}
+.item2:hover{
+    transform: scale(1.2);
+}
+.item3{
+    width: 370px;
+    height: 560px;
+    grid-column: 3/4;
+    grid-row: 1/3;
+    transition: 1s;
+}
+.item3:hover{
+    transform: scale(1.2);
+}
+.item4{
+    width: 370px;
+    height: 270px;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    transition: 1s;
+}
+.item4:hover{
+    transform: scale(1.2);
+}
+.item5{
+    width: 370px;
+    height: 270px;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    transition: 1s;
+}
+.item5:hover{
+    transform: scale(1.2);
+}
+.contenedorpopu{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.popu1{
+    width: 350px;
+    height: 350px;
+    box-shadow: 0px 0px 4px rgb(78, 73, 73);
+    transition: 1s;
+}
+.popu1:hover{
+    transform: scale(1.2);
+}
+.popu2{
+    width: 350px;
+    height: 350px;
+    box-shadow: 0px 0px 4px rgb(78, 73, 73);
+    transition: 1s;
+}
+.popu2:hover{
+    transform: scale(1.2);
+}
+.popu3{
+    width: 350px;
+    height: 350px;
+    box-shadow: 0px 0px 4px rgb(78, 73, 73);
+    transition: 1s;
+}
+.popu3:hover{
+    transform: scale(1.2);
+}
+
+.footer{
+    width: 100vw;
+    height: 120px;
+    background-image: url(PIE\ DE\ PAGINA.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    gap: 200px;
+    justify-content: center;
+    align-items: center;
+}
+.footer img{
+    width: 70px;
+    height: 70px;
+}
+.footer h2{
+    color: white;
+}
